@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Courgette';
+    src: url('../webfonts/courgette-regular.ttf');
+}
+
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url('../webfonts/oswald-regular.ttf');
+}
+
+@font-face {
+    font-family: 'Oswald-ExtraLight';
+    src: url('../webfonts/oswald-extralight.ttf');
+}
