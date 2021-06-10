@@ -4,12 +4,88 @@ h2 {
 }
 
 header {
-    background-color: black;
-    background-image: ;
-    background: blanchedalmond ;
+    color: white;
+    background: url('../img/header.jpg');
+    background-position-y: 62%;
+    background-size: cover;
+}
+
+#header {
+    background: rgba(0, 0, 0, 0.8)
 }
 
 nav {
-    color: black;
     font-family: 'Oswald-ExtraLight';
+}
+
+#navigation {
+    border-bottom: 0.1em solid rgba(255, 255, 255, 0.2);
+}
+
+
+li.nav-item a, li.nav-item a:hover, li.nav-item:focus {
+    color: white;
+}
+
+#title img {
+    width:5em;
+}
+
+main {
+    background-color: white;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 2em 5em;
+}
+
+footer h4 {
+    font-family: 'Courgette';
+}
+
+footer h6 {
+    font-family: 'Courgette';
+}
+
+footer li {
+    font-family: 'Oswald-ExtraLight';
+}
+
+footer li a, footer li a:hover, footer li a:focus {
+    color: white;
+}
+
+footer input[type="text"] {
+    height: 2em !important;
+    font-family: 'Oswald-Regular';
+}
+
+footer input[type="submit"] {
+    padding: 0.2em 1em 0.5em 1em;
+    background-color: black;
+    color: white;
+    border-color: white;
+    height: 2em !important;
+    vertical-align: middle !important;
+    font-family: 'Oswald-Regular';
+}
+
+#share ul {
+    padding-left: 0 !important;
+}
+
+#share li {
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    list-style: none;
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: px) {
+    
 }

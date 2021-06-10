@@ -11,37 +11,126 @@
         <script src="./js/bootstrap.bundle.min.js"></script>
         <title>Cui'Zine</title>
     </head>
-    <body>
-        <header>
-            <div class="d-flex justify-content-between">
-                <h2>Cui'zine</h2>
-                
-                <nav class="navbar navbar-expand-lg">
-                <div class="collapse navbar-collapse">
 
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Accueil</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Équipe</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link " href="#">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
+    <body>
+        <header class="h-50">
+            <div class="h-100" id="header">
+
+                <div class="d-flex justify-content-between mb-5" id="navigation">
+                    <h2 class="p-3">Cui'zine</h2>
+                    
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="collapse navbar-collapse">
+
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Équipe</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-                </nav>
-            </div>
+
+                <div class="w-25 p-50 mx-auto text-center" id="title">
+                    <img src="img/logo_square_white.png"> 
+                    <h1>Cui'zine</h1>
+                    <h2>Le mag cuisine</h2>
+                </div>
+            </header>
+        </header>
+
+        <main>
+        <section class="crepes">
+            <div> <h3> Derniers articles </h3> </div>
 
             <div>
-                <img src="img/logo_square_white.png">
-                <h1>Cui'zine</h1>
-                <h2>Le mag cuisine</h2>
+                <a href="./recipe.html"><img src="./img/articles/suzette/suzette-small.jpg" ></a>
+                <p> <h2>chez sucette la nouvelle creperie fait parler d'elle.</h2>  
+                     <br>la franchise chez suzette qui fait un carton chez les bretons ouvre son premier restaurant à paris dans le quartier latin. Antoine de cuisine  à testé pour vous les saveurs sucrées ou salées au fromment ou au sarrazin. 
+            
+                </p>
+
             </div>
-        </header>
+        </section>
+
+        <section class="dessert">
+            <div> <h3> Le metro dessert </h3></div> 
+            
+            <div> 
+                <img src="./img/articles/metro/metro-small.jpg">
+                <p>Germain est ferrovipathe (ndlr: fan detrain) son fils Maxine est patissier. Ils ont decidé de joindre leur 2 passions dans un restaurant à la deco inspiré du métro parisien. Mais qu'en est il d'u aller pour manger? Clementine entrec en gare et nouzs donne son avis.   </p>   
+            
+            </div>
+        </section>
+        <section class="vitaly">
+            <div> <h3> Le vegan italien </h3></div> 
+            
+            <div> 
+                <img src="./img/articles/vitaly/vitaly-small.jpg">2
+                <p> quand on pense italien, on pense lasagne et jambon de parme. Ils l'ont fait, les saveurs de l'italie à portée des herbivores. cette fois, c'est moi tony qui vais tester pour vous.</p>
+            </div>
+        </section>
+        
+        
+        
+        
+
+            
+
+
+
+        </main>
+
+        <footer class="contains">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h4>Catégories</h4>
+                    <ul>
+                        <li><a href="#">Revues</a></li>
+                        <li><a href="#">Recettes</a></li>
+                        <li><a href="#">Découvertes</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-4">
+                    <h4>Archives</h4>
+                    <ul>
+                        <li><a href="#">2019</a></li>
+                        <li><a href="#">2018</a></li>
+                        <li><a href="#">2017</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="pb-3" id="newsletter">
+                        <h6>Newsletter</h6>
+                        <div class="d-flex">
+                            <input class="align-self-start" type="text" placeholder="Email">
+                            <input class="align-self-start btn btn-dark" type="submit" value="S'inscrire">
+                        </div>
+                    </div>
+                    
+                    <div id="share">
+                        <h6>Partager</h6>
+                        <ul>
+                            <li><i class="fab fa-facebook-square"></i></li>
+                            <li><i class="fab fa-instagram"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
